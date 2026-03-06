@@ -6,7 +6,7 @@ export function FollowUpQuestions({ questions }: FollowUpQuestionsProps) {
   return (
     <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
       <h2 className="mb-4 text-xs font-semibold uppercase tracking-widest text-teal-600">
-        Questions to Ask Your Bank or Broker
+        Questions to Ask Your Financial Expert
       </h2>
       <ol className="space-y-3">
         {questions.map((question, index) => (
